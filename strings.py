@@ -43,3 +43,24 @@ print(s.replace('world', 'everyone'))
 # Count
 sub = 'h'
 print(s.count(sub))
+
+# Starts with
+print(s.startswith('hello'))
+
+# Ends with
+print(s.endswith('d'))
+
+# Split into a list
+print(s.split())
+
+# Find position
+print(s.find('r'))
+
+# Is all alphanumeric
+print(s.isalnum())
+
+# Is all alpabetic
+print(s.isalpha)
+
+# Is all numeric
+print(s.isnumeric) 
