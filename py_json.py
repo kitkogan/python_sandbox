@@ -1,1 +1,19 @@
 # JSON is commonly used with data APIS. Here how we can parse JSON into a Python dictionary
+
+import json
+
+# Sample JSON
+userJSON = '{"first_name": "Kit", "last_name": "K", "age": 36}'
+
+# Parse to dict
+user = json.loads(userJSON)
+
+print(user)
+print(user['first_name'])
+
+car = {"make": "Chevy", "model": "Mercury", "year": 1970}
+
+#take from dict and parse into JSON
+carJSON = json.dumps(car)
+
+print(carJSON)
